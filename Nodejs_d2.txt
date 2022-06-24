@@ -1,0 +1,45 @@
+1)	What is Node.js?
+	A JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking model that makes it lightweight and efficient. Node.js' package ecosystem, npm , is the largest ecosystem of open source libraries in the world.
+	A platform which allows us to run JavaScript on a computer / server.
+	Read, delete, and update files.
+	Easily communicate with a database.
+
+2)	Why is Node.js so Popular?
+	It uses JavaScript
+	Very fast (runs on the V8 engine & uses non - blocking code)
+	Huge ecosystem of open-source packages (npm)
+	Great for real - time services (like chats)
+
+3)	Pre-Requisites for Node.js:
+	JavaScript
+	HTML
+	About the command line
+
+4)	What are JavaScript Engines?
+	Computers do not understand JavaScript. A JavaScript engine takes JavaScript and converts it into something it does understand - machine code.
+	Node.js is written in C ++
+	The heart of Node.js is the V8 engine
+	The V8 engine converts our JS into machine code
+
+5)	What is V8?
+	V8 is Google’s open-source high-performance JavaScript and Web Assembly engine, written in C++. It is used in Chrome and in Node.js, among others. It implements ECMAScript and Web Assembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors. V8 can run standalone or can be embedded into any C++ application.
+
+6)	What are Global Objects?
+	Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any module.
+
+7)	What is Function Expression?
+	Function Expression allows us to create an anonymous function which doesn't have any function name.
+	Syntax for Function Expression (anonymous):
+	let variableName = function (x, y) {statements... return (z)};
+
+8)	What is a Module in Node.js?
+	A set of functions that we include in our application.
+	Built-in Modules:
+	Node.js has a set of built-in modules which we can use without any further installation.
+
+9)	How to include Modules?
+	To include a module, the require () function is used with the name of the module:
+	var http = require('http');
+
+10)	What is module pattern?
+	The Module Pattern is one of the important patterns in JavaScript. It is a commonly used Design Pattern which is used to wrap a set of variables and functions together in a single scope.
